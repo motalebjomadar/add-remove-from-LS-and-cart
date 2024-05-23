@@ -1,0 +1,22 @@
+/* .cart{
+    margin: 5px;
+    border: 2px solid firebrick;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.cart img{
+    width: 70px;
+} */
+
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.cart-container img{
+    width: 100px;
+    margin-right: 10px;
+}
